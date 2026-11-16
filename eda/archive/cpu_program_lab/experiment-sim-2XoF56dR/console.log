@@ -1,0 +1,9 @@
+[INFO] Final PATH variable: /foss/tools/bin:/foss/tools/sak:/usr/local/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/foss/tools/kactus2:/foss/tools/klayout:/foss/tools/osic-multitool
+[INFO] Final PYTHONPATH variable: /usr/lib/python312.zip:/usr/lib/python3.12:/usr/lib/python3.12/lib-dynload:/usr/local/lib/python3.12/dist-packages:/usr/lib/python3/dist-packages:/foss/tools/ngspyce/local/lib/python3.12/dist-packages:/foss/tools/openems/local/lib/python3.12/dist-packages:/foss/tools/yosys/share/yosys/python3:/foss/tools/klayout/pymod
+VCD info: dumpfile three_instructions.vcd opened for output.
+reset: B=0 OUT=0 PC=0
+step=0 pc=0 instruction=72 B=2 OUT=0 next_pc=1
+step=1 pc=1 instruction=54 B=6 OUT=0 next_pc=2
+step=2 pc=2 instruction=90 B=6 OUT=6 next_pc=3
+PASS: three instructions
+three_instructions_tb.sv:50: $finish called at 32000 (1ps)

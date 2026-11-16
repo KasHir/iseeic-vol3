@@ -1,0 +1,15 @@
+{
+  "gds_run": "experiment-gds-BTk6iY3e",
+  "sim_run": "experiment-sim-yWiVD7Td",
+  "image": "hpretl/iic-osic-tools@sha256:92961478ad3c4f508efb42d9ccdba12ab262eb42a14926d2bd49862230ba8521",
+  "gds_sha256": "48df4860439ae03a7c98aea5b441fc99911831107fae7eccf2f3d2f14b76dcbe",
+  "rtl_sha256": "e6b57e7937864d90eb837ac59b311e44c359fdd2cf907cb85d8a406235ec2917",
+  "block_checks": 262176,
+  "cpu_state_checks": 131149,
+  "synthesis_cells": 75,
+  "synthesis_cell_area_um2": 1002.2112,
+  "die_width_um": 160,
+  "die_height_um": 160,
+  "setup_worst_slack_ns": 17.80487985221599,
+  "hold_worst_slack_ns": 0.1579490472010222
+}

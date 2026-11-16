@@ -1,0 +1,14 @@
+[INFO] Final PATH variable: /foss/tools/bin:/foss/tools/sak:/usr/local/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/foss/tools/kactus2:/foss/tools/klayout:/foss/tools/osic-multitool
+[INFO] Final PYTHONPATH variable: /usr/lib/python312.zip:/usr/lib/python3.12:/usr/lib/python3.12/lib-dynload:/usr/local/lib/python3.12/dist-packages:/usr/lib/python3/dist-packages:/foss/tools/ngspyce/local/lib/python3.12/dist-packages:/foss/tools/openems/local/lib/python3.12/dist-packages:/foss/tools/yosys/share/yosys/python3:/foss/tools/klayout/pymod
+VCD info: dumpfile selector4.vcd opened for output.
+select A: select=0 A=2 B=5 IN=9 output=2 expected=2
+select B: select=1 A=2 B=5 IN=9 output=5 expected=5
+select input: select=2 A=2 B=5 IN=9 output=9 expected=9
+select zero: select=3 A=2 B=5 IN=9 output=0 expected=0
+B before change: select=1 A=2 B=5 IN=9 output=5 expected=5
+B after change: select=1 A=2 B=7 IN=9 output=7 expected=7
+unselected inputs change: select=1 A=4 B=7 IN=12 output=7 expected=7
+zero before change: select=3 A=4 B=7 IN=12 output=0 expected=0
+zero after change: select=3 A=1 B=3 IN=8 output=0 expected=0
+PASS: selector4
+selector4_tb.sv:31: $finish called at 9000 (1ps)

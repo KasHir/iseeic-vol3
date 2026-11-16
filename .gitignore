@@ -1,0 +1,16 @@
+# Generated EDA results and local files
+eda/designs/**/runs/
+/build/
+/private/
+__pycache__/
+*.pyc
+*.out
+*.Zone.Identifier
+
+# Select reader documentation explicitly.
+/docs/*
+!/docs/book_map.md
+!/docs/portable_setup.md
+!/docs/observation.md
+!/docs/adder-wave-compare.csv
+!/docs/images/

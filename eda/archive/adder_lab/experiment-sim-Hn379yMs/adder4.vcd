@@ -1,0 +1,33 @@
+$date
+	Sat Oct 31 18:07:01 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module adder4_one_tb $end
+$var wire 5 ! sum_o [4:0] $end
+$var reg 4 " left_i [3:0] $end
+$var reg 4 # right_i [3:0] $end
+$scope module dut $end
+$var wire 4 $ left_i [3:0] $end
+$var wire 4 % right_i [3:0] $end
+$var wire 5 & sum_o [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10000 &
+b1 %
+b1111 $
+b1 #
+b1111 "
+b10000 !
+$end
+#1000

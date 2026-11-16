@@ -1,0 +1,25 @@
+{
+  "DESIGN_NAME": "my_cpu4",
+  "VERILOG_FILES": "dir::my_cpu4.v",
+  "CLOCK_PORT": "clk_i",
+  "CLOCK_PERIOD": 100,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "CORE_AREA": [
+    10,
+    10,
+    150,
+    150
+  ],
+  "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+  "PNR_SDC_FILE": "dir::my_cpu4.sdc",
+  "SIGNOFF_SDC_FILE": "dir::my_cpu4.sdc",
+  "DRT_THREADS": 2,
+  "KLAYOUT_DRC_THREADS": 2,
+  "KLAYOUT_XOR_THREADS": 2
+}

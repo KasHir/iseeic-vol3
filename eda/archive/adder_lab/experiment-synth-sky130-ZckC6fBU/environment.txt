@@ -1,0 +1,6 @@
+image=hpretl/iic-osic-tools@sha256:92961478ad3c4f508efb42d9ccdba12ab262eb42a14926d2bd49862230ba8521
+mode=synth-sky130
+jobs=2
+design=adder_lab
+adder_test=five
+adder_variant=good

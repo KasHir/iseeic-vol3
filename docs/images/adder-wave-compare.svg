@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 370">
+<rect width="900" height="370" fill="white"/>
+<g font-family="monospace" font-size="17" fill="black" stroke="none">
+<text x="20" y="25">Saved RTL VCD: good vs. drop-carry (decimal values)</text>
+<text x="260" y="60">0 ns</text>
+<path d="M260,70 V310" stroke="#ccc"/>
+<text x="400" y="60">1 ns</text>
+<path d="M400,70 V310" stroke="#ccc"/>
+<text x="540" y="60">2 ns</text>
+<path d="M540,70 V310" stroke="#ccc"/>
+<text x="680" y="60">3 ns</text>
+<path d="M680,70 V310" stroke="#ccc"/>
+<text x="820" y="60">4 ns</text>
+<path d="M820,70 V310" stroke="#ccc"/>
+<text x="20" y="100">left_i</text>
+<path d="M260,80 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="320" y="87">0</text>
+<path d="M400,80 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="460" y="87">2</text>
+<path d="M540,80 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="600" y="87">9</text>
+<path d="M680,80 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="740" y="87">15</text>
+<text x="20" y="145">right_i</text>
+<path d="M260,125 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="320" y="132">0</text>
+<path d="M400,125 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="460" y="132">3</text>
+<path d="M540,125 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="600" y="132">0</text>
+<path d="M680,125 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="740" y="132">1</text>
+<text x="20" y="190">expected</text>
+<path d="M260,170 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="320" y="177">0</text>
+<path d="M400,170 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="460" y="177">5</text>
+<path d="M540,170 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="600" y="177">9</text>
+<path d="M680,170 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="740" y="177">16</text>
+<text x="20" y="235">sum_o (good)</text>
+<path d="M260,215 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="320" y="222">0</text>
+<path d="M400,215 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="460" y="222">5</text>
+<path d="M540,215 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="600" y="222">9</text>
+<path d="M680,215 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="740" y="222">16</text>
+<text x="20" y="280">sum_o (drop-carry)</text>
+<path d="M260,260 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="320" y="267">0</text>
+<path d="M400,260 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="460" y="267">5</text>
+<path d="M540,260 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="600" y="267">9</text>
+<path d="M680,260 l5,-5 h130 l5,5 l-5,5 h-130 Z" fill="none" stroke="black"/>
+<text x="740" y="267">0</text>
+<text x="20" y="340">[3,4) ns: expected=16, good=16, drop-carry=0. Failure checked at 4 ns.</text>
+</g></svg>
